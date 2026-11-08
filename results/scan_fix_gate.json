@@ -1,0 +1,39 @@
+{
+ "tolerance": 1e-05,
+ "best_model": {
+  "stored_val_loss": 4.365537643432617,
+  "extract_mode_val_loss": 4.365537659327189,
+  "abs_diff": 1.5894571880892272e-08,
+  "logits_rel_l2_extract_vs_cuda_batch0": 7.307426699298958e-07,
+  "pass": true
+ },
+ "model_default": {
+  "stored_val_loss": 4.365537643432617,
+  "extract_mode_val_loss": 4.365537659327189,
+  "abs_diff": 1.5894571880892272e-08,
+  "logits_rel_l2_extract_vs_cuda_batch0": 7.307426699298958e-07,
+  "pass": true
+ },
+ "model_slow": {
+  "stored_val_loss": 4.3761493047078455,
+  "extract_mode_val_loss": 4.376149213314056,
+  "abs_diff": 9.139378942535359e-08,
+  "logits_rel_l2_extract_vs_cuda_batch0": 8.005116569620441e-07,
+  "pass": true
+ },
+ "model_fast": {
+  "stored_val_loss": 4.361609363555909,
+  "extract_mode_val_loss": 4.361609137058258,
+  "abs_diff": 2.264976508570271e-07,
+  "logits_rel_l2_extract_vs_cuda_batch0": 5.69330666166934e-07,
+  "pass": true
+ },
+ "model_2layer": {
+  "stored_val_loss": 3.9239359378814695,
+  "extract_mode_val_loss": 3.9239358862241107,
+  "abs_diff": 5.165735883494449e-08,
+  "logits_rel_l2_extract_vs_cuda_batch0": 9.616924216970801e-07,
+  "pass": true
+ },
+ "all_pass": true
+}

@@ -1,0 +1,69 @@
+{
+ "commit": "b58e14c",
+ "cohort": "matched",
+ "checks": {
+  "single_layer_slow_seed1": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 2.9011745652507415e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 3.3712199048574476e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.399254171216782e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 8.343326385329419e-07
+  },
+  "single_layer_default_seed1": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.29475612768082e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.5640039429508654e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.6251037255862215e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 1.3052422218606807e-06
+  },
+  "single_layer_fast_seed1": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.337889848276099e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.363890574408334e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.2843851775886677e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 1.6579956536588725e-06
+  },
+  "single_layer_slow_seed2": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.257472401663186e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.711455937620677e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.5562505879948034e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 1.4242862107494147e-06
+  },
+  "single_layer_default_seed2": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.062908138473652e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.7221906125696194e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.681769450676221e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 2.2688350327371154e-06
+  },
+  "single_layer_fast_seed2": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.4205876310755556e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 6.222454278836942e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.4358521948950624e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 2.3998657070478657e-06
+  },
+  "single_layer_slow_seed3": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.1182125759032786e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.5492659012749108e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.433528857039626e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 1.0809628747665556e-06
+  },
+  "single_layer_default_seed3": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.1388392458753245e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.6882521014237604e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.722042769467194e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 9.087128773899167e-07
+  },
+  "single_layer_fast_seed3": {
+   "training_path_vs_model_forward_rel_l2": 0.0,
+   "X_vs_autograd_detach_all_max_rel_dev": 3.697696094562275e-05,
+   "S_vs_autograd_scan_frozen_erf_max_rel_dev": 2.8467285010158605e-05,
+   "E_reference_scan_vs_training_path_max_rel_dev": 4.481773823239443e-05,
+   "decomposition_sum_vs_autograd_full_max_rel_dev": 1.431098326065694e-06
+  }
+ }
+}

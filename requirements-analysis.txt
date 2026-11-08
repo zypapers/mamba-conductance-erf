@@ -1,0 +1,4 @@
+# Enough to regenerate every number and figure from the released files (CPU only).
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9

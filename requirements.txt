@@ -1,0 +1,15 @@
+# Tested on Ubuntu (WSL2), Python 3.12.3, CUDA 13.0, one NVIDIA RTX PRO 6000 (96 GB).
+# mamba-ssm 2.3.1 builds from source: follow the README's Requirements (PyTorch 2.11.0 for CUDA 13.0, pip's CUDA 13.0
+# compiler as CUDA_HOME with two library links, then MAMBA_FORCE_BUILD=TRUE pip install -r requirements.txt
+# --no-build-isolation).
+torch==2.11.0
+mamba-ssm==2.3.1        # fused selective-scan kernel, used in training (extraction uses src/model/scan_ref.py)
+einops==0.8.2
+triton==3.6.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9
+datasets==4.8.5         # WikiText-103 (wikitext-103-raw-v1)
+transformers==5.7.0     # GPT-2 tokenizer; Mamba-370M
+tokenizers==0.22.2
+huggingface_hub==1.13.0
